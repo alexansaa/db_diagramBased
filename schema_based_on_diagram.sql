@@ -32,16 +32,16 @@ CREATE TABLE treatments (
 );
 
 -- Create the "invoice_items" table with foreign key references to "invoices" and "treatments"
--- CREATE TABLE invoice_items (
---     id serial PRIMARY KEY,
---     unit_price decimal,
---     quantity int,
---     total_price decimal,
---     invoice_id int,
---     treatment_id int,
---     FOREIGN KEY (invoice_id) REFERENCES invoices(id),
---     FOREIGN KEY (treatment_id) REFERENCES treatments(id)
--- );
+CREATE TABLE invoice_items (
+    id serial PRIMARY KEY,
+    unit_price decimal,
+    quantity int,
+    total_price decimal,
+    invoice_id int,
+    treatment_id int,
+    FOREIGN KEY (invoice_id) REFERENCES invoices(id),
+    FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+);
 
 -- Create the "med_hist_treat" table with foreign key references to "medical_histories" and "treatments"
 -- CREATE TABLE med_hist_treat (
