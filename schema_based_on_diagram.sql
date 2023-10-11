@@ -25,11 +25,11 @@ CREATE TABLE invoices (
 );
 
 -- Create the "treatments" table
--- CREATE TABLE treatments (
---     id serial PRIMARY KEY,
---     type varchar,
---     name varchar
--- );
+CREATE TABLE treatments (
+    id serial PRIMARY KEY,
+    type varchar,
+    name varchar
+);
 
 -- Create the "invoice_items" table with foreign key references to "invoices" and "treatments"
 -- CREATE TABLE invoice_items (
