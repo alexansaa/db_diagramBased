@@ -2,7 +2,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-# 🐕 Vet Clinic Database 🐱
+# Clinic Database
 
 # 📗 Table of Contents
 
@@ -24,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic Database <a name="about-project"></a>
+# 📖 Clinic Database <a name="about-project"></a>
 
-> The project is a database for a vet clinic, it has a table for animal records. 
+> The project is a database for a clinic.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -115,7 +115,11 @@ If you have installed the Visual Studio Code (VSCode) plugins I mentioned above,
 
 👤 **DRT**
 
-- GitHub: [@githubhandle](https://github.com/wwwdrt)
+- GitHub: [@wwwdrt](https://github.com/wwwdrt)
+
+👤 **Alex**
+
+- GitHub: [@alexansaa](https://github.com/alexansaa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
